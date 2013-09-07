@@ -1,0 +1,23 @@
+---
+buzzwords: ! 'data: {"items":[{"label":"Synergy","value":15},{"label":"Streamlininess","value":8},{"label":"Enterprise","value":16},{"label":"Exit
+  strategy","value":18},{"label":"Web 2.0","value":15},{"label":"Leverage","value":15},{"label":"Paradigm
+  shift","value":16},{"label":"Pivoting","value":19},{"label":"Turn-key","value":11}],"id":"buzzwords","updatedAt":1378576044}
+
+
+'
+convergence: ! 'data: {"points":[{"x":134,"y":46},{"x":135,"y":12},{"x":136,"y":22},{"x":137,"y":16},{"x":138,"y":0},{"x":139,"y":5},{"x":140,"y":8},{"x":141,"y":40},{"x":142,"y":23},{"x":143,"y":1}],"id":"convergence","updatedAt":1378576044}
+
+
+'
+valuation: ! 'data: {"current":28,"last":65,"id":"valuation","updatedAt":1378576044}
+
+
+'
+karma: ! 'data: {"current":24306,"last":97915,"id":"karma","updatedAt":1378576044}
+
+
+'
+synergy: ! 'data: {"value":4,"id":"synergy","updatedAt":1378576044}
+
+
+'
