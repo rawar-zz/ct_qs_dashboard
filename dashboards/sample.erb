@@ -1,25 +1,57 @@
-<% content_for :title do %>My super sweet dashboard<% end %>
+<% content_for(:title) { "c't Quantified Self Dashboard" } %>
 <div class="gridster">
   <ul>
+  	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div 
+      
+      </div>
+    </li>
+    
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="Protip: You can drag the widgets around!"></div>
+      <div 
+      	data-id="welcome" 
+		data-view="Text" 
+		data-title="c't Quantified Self Dashboard" 
+		data-text="Dieses Dashboard zeigt dir die Daten Deiner Personal Tracker an" 
+		data-moreinfo="Du kannst das Layout Deines Dashboards durch drag'n drop selber konfigurieren">
+      </div>
     </li>
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-title="Synergy" data-min="0" data-max="100"></div>
+      <div 
+      	data-id="fitbit_steps" 
+		data-view="Number" 
+		data-title="Anzahl Schritte heute" 
+		data-moreinfo="Tägliche Schritte laut FitBit Zip">
+      </div>
     </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
-      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Buzzwords" data-moreinfo="# of times said around the office"></div>
-    </li>
-
+    
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="valuation" data-view="Number" data-title="Current Valuation" data-moreinfo="In billions" data-prefix="$"></div>
+      <div 
+      	data-id="fitbit_calories" 
+		data-view="Number" 
+		data-title="Verbrannte Kalorien heute" 
+		data-moreinfo="Kalorienverbrauch laut FitBit Zip">
+      </div>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div 
+      	data-id="weightbot" 
+      	data-view="Timeseries" 
+      	data-title="Gewichtsübersicht" 
+      	data-moreinfo="Gewichtsveränderung laut WeightBot"
+      	style="background-color:#ff9618"></div>
+    </li>
+    
+     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div 
+      	data-id="nikeplus" 
+      	data-view="Meter" 
+      	data-title="Letzter Lauf in KM" 
+      	data-moreinfo="Laut Nike+ Sensor"
+      	data-min="0" data-max="15"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#ff9618"></div>
-    </li>
-  </ul>
-  <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome</div></center>
+    
 </div>
