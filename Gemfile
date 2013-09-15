@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'dashing'
-
-## Remove this if you don't need a twitter widget.
-gem 'twitter'
+gem 'dashing'
+gem 'fitgem'
+gem 'httparty'
+gem 'nike'
+gem 'json', '~> 1.7.7'
+gem 'mechanize'
