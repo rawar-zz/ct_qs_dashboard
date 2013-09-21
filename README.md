@@ -10,9 +10,9 @@ Aus verständlichen Gründen sind die Passwörter und Zugangscodes nicht im Proj
 Die Konfigurationsdateien dafür finden sich im Verzeichnis 
 
 <code>
-/libs/nikeplus/nikeplus.yml
-/libs/fitbit/firbit.yml
-/libs/weightbot.yml
+/lib/nikeplus/nikeplus.yml
+/lib/fitbit/firbit.yml
+/lib/weightbot.yml
 </code>
 
 Die Daten der einzelnen Tracker werden mit Hilfe der Ruby-Scheduler-Script unter
